@@ -1,0 +1,45 @@
+Welcome to Fun with Numbers!
+
+x = 1
+y = 2
+z = 3
+a = 1
+b = 2
+c = 3
+
+Checking for equivalencies...
+
+a = x
+b = y
+c = z
+
+We are in business!
+
+Right now, c = 3 and x = 1
+Let's square c while simultaneously incrementing x, shall we?
+Once x = 5, we will stop.
+
+Squaring and incrementing...
+3
+Squaring and incrementing...
+9
+Squaring and incrementing...
+81
+Squaring and incrementing...
+6561
+Squared c 5 times!
+Final value: 43046721
+
+Let's try and grab just the first 4 digits...
+4304
+Then if we subtract 100...
+4204
+Then let's slice it in half...
+2102
+Since I'm writing this at 3:00 a.m., let's add 3...
+2105
+And before we go lets move some things around...
+2015
+And with that we can all say goodbye to 2015!
+
+HAPPY NEW YEAR!

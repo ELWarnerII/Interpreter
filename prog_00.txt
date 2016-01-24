@@ -1,0 +1,77 @@
+{
+  # Welcome message
+  print "Welcome to Fun with Numbers!\n\n"
+  
+  # Create arbitrary number list
+  set x 1
+  print "x = 1\n"
+  set y 2
+  print "y = 2\n"
+  set z 3
+  print "z = 3\n"
+  set a x
+  print "a = 1\n"
+  set b y
+  print "b = 2\n"
+  set c z
+  print "c = 3\n\n"
+  print "Checking for equivalencies...\n\n"
+  if and and equal a x equal b y equal c z
+    print "a = x\nb = y\nc = z\n\nWe are in business!\n\n"
+  
+  print "Right now, c = 3 and x = 1\nLet's square c while simultaneously incrementing x, shall we?\nOnce x = 5, we will stop.\n\n"
+  while less x 5
+  {
+    # print the value of c
+    print "Squaring and incrementing...\n"
+    print c
+    print "\n"
+
+    # square c
+    set c mul c c
+    
+    # increment x
+    set x add x 1
+  }
+  
+  # Tell them what just happened!
+  print "Squared c "
+  print x
+  print " times!\n"
+  
+  print "Final value: "
+  print c
+  print "\n\n"
+  
+  print "Let's try and grab just the first 4 digits...\n"
+  set newguy substr c 0 4
+  print newguy
+  print "\n"
+  
+  print "Then if we subtract 100...\n"
+  set newguy sub newguy 100
+  print newguy
+  print "\n"
+  
+  print "Then let's slice it in half...\n"
+  set newguy div newguy 2
+  print newguy
+  print "\n"
+  
+  print "Since I'm writing this at 3:00 a.m., let's add 3...\n"
+  set newguy add newguy 3
+  print newguy
+  print "\n"
+  
+  print "And before we go lets move some things around...\n"
+  set newguy 2015
+  print newguy
+  print "\n"
+  
+  print "And with that we can all say goodbye to "
+  print newguy
+  print "!\n\n"
+  
+  print "HAPPY NEW YEAR!\n"
+
+}

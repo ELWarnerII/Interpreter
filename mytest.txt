@@ -1,0 +1,9 @@
+{
+  set x 25
+  set y 10
+  set z 20
+  set a x
+  set x 20
+  set y 0
+  set a y
+}
